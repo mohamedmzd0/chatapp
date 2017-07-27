@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--<item-->
+    <!--android:id="@+id/video"-->
+    <!--android:title="Search"-->
+    <!--android:icon="@drawable/facetime"-->
+    <!--android:showAsAction="always"/>-->
+    <!--<item-->
+        <!--android:id="@+id/call"-->
+        <!--android:title="Search"-->
+        <!--android:icon="@drawable/call"-->
+        <!--android:showAsAction="always"/>-->
+    <item
+        android:id="@+id/profileactivity"
+        android:title="@string/profile"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/block"
+        android:title="@string/block"
+        android:showAsAction="never"/>
+
+</menu>

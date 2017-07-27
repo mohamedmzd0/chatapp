@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DDD"
+    android:layout_margin="25dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#5222"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:background="@drawable/image_round"
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:scaleType="centerCrop"
+        android:layout_height="60dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/profile_name"
+        android:text="user 1"
+        android:textSize="18dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/textcolor"
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="30dp" />
+        <TextView
+            android:text="online"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@+id/profile_name"
+            android:layout_width="0dp"
+            android:textColor="@color/textcolor"
+            android:layout_weight=".3"
+            android:layout_height="30dp" />
+        </LinearLayout>
+    <TextView
+        android:paddingLeft="15dp"
+        android:textAlignment="textStart"
+        android:paddingRight="15dp"
+        android:textSize="14dp"
+        android:id="@+id/last_message"
+        android:textColor="@color/textcolor"
+        android:text="hello user 1"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

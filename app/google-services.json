@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "122424454258",
+    "firebase_url": "https://chatapp-fba27.firebaseio.com",
+    "project_id": "chatapp-fba27",
+    "storage_bucket": "chatapp-fba27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122424454258:android:482c9f9e78620a30",
+        "android_client_info": {
+          "package_name": "com.example.mohamedabdelaziz.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122424454258-lnmbejpc46hmj8a7pbko97lr5ipf7323.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbpnatRGxHvViWXhpCO1gNZGd6m72tRig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
